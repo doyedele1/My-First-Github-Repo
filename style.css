@@ -1,0 +1,74 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: auto;
+	background-color: #fefbd8;
+}
+
+#myphoto {
+	background-position: center;
+	border: 2px solid #eca1a6;
+	border-radius: 50%;
+	width: 100px;
+	height: 100px;
+  	margin-left: auto;
+  	margin-right: auto;
+}
+
+.contact {
+	background-color: #bdcebe;
+	text-align: center;
+	font-size: 0.75em;
+	font-style: normal;
+}
+
+.name {
+	color: #6b5b95;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+#address, #phone, #email {
+	border-radius: 100%;
+	border: 2px solid black;
+	width: 10px;
+	height: 10px;
+}
+
+p {
+	color: #7f7f7f;
+	display: inline-block;
+}
+
+a {
+	text-decoration: none;
+	color: #6b5b95;
+}
+
+a:hover {
+	background-color: #eca1a6;
+}
+
+.activities {
+	background: #fefbd8;
+}
+
+.education-profile, .training, .leadership-skills, .volunteer {
+	text-align: center;
+	font-weight: bolder;
+	font-size: 1.3em;
+	border: 2px solid grey;
+	background: #eca1a6;
+	color: #6b5b95;
+}
+
+.education, .training-centers, .experience, .volunteer-work {
+	text-align: left;
+}
+
+.footer p {
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	color: grey;
+  	text-align: center;
+}
