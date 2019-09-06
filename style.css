@@ -39,12 +39,12 @@ p {
 	display: inline-block;
 }
 
-a {
+.github {
 	text-decoration: none;
 	color: #6b5b95;
 }
 
-a:hover {
+.github:hover {
 	background-color: #eca1a6;
 }
 
@@ -63,6 +63,46 @@ a:hover {
 
 .education, .training-centers, .experience, .volunteer-work {
 	text-align: left;
+}
+
+.contact-form {
+  border-radius: 5px;
+  background-color: #fefbd8;
+  padding: 20px;
+}
+
+input[type=text], input[type=email], select, textarea {
+  width: 100%;
+  padding: 10px; 
+  border: 2px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  margin-top: 10px;
+  margin-bottom: 15px;
+  resize: vertical;
+}
+
+.form {
+	color: #6b5b95;
+	border: 2px solid grey;
+	background-color: #eca1a6;
+}
+
+.required-fields {
+	color: grey;
+}
+
+input[type=submit] {
+  background-color: #6b5b95;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #eca1a6;
 }
 
 .footer p {
