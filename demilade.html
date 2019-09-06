@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 	<head>
 	<title>My CV</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet">
 	</head>
@@ -17,7 +18,7 @@
 				<p><img src="https://www.logolynx.com/images/logolynx/26/26a1bf9442248c88b30cb895b24cc459.png" alt="HomeAddress" id="address">17, Oyes Avenue, Pakoto Ifo, Ogun State</p>
 				<p><img src="https://icon-library.net/images/phone-icon-logo/phone-icon-logo-2.jpg" alt="PhoneNumber" id="phone">+2348180848528</p>
 				<p><img src="https://www.freepnglogos.com/uploads/email-logo-png-27.png" alt="EmailAddress" id="email">demilade.oyedele@gmail.com</p><br>
-				<a href="https://github.com/doyedele1">Click Here to View My Github Profile</a>
+				<a href="https://github.com/doyedele1" class="github">Click Here to View My Github Profile</a>
 		</div>
 
 	<div class="activities"> 
@@ -71,6 +72,35 @@
 				<li>Replicated various webpages with Adobe CS Fireworks</li><hr>
 			</ul>
 		</div>
+	</div>
+
+	<!-- Contact Form -->
+	<div class="contact-form">
+		<form method= "GET">
+			<a class="form">Fill the form below to hit me a message</a>
+			<br>
+
+			<label for="title">Title</label> 
+			<select>
+				<option value="mr">Mr</option>
+				<option value="mrs">Mrs</option>
+				<option value="mr">Miss</option>
+			</select><br>
+
+			<label for="fullname">Full Name</label>
+			<input type="text" min="4" id="fname" name="fullname" placeholder="Your full name here..."><br>
+				
+			<label for="email">Email*</label>
+			<input type="email" required><br>
+			
+			<label for="message">Message</label>
+			<textarea id="message" name="message" min="20" placeholder="Hit me a message..." style="height:200px"></textarea><br>
+
+			<a class="required-fields">* Required fields</a><br>
+			<input type="submit" value="Submit!">
+		<hr>
+
+		</form>	
 	</div>
 
 		<!-- Here You See Who Designed this Webpage -->
